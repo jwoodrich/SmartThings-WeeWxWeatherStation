@@ -23,7 +23,7 @@ It might look something like this:
     
     [[Services]]
         ...
-        report_services = weewx.engine.StdPrint, weewx.engine.StdReport, weewx.currentweather.CurrentWeatherJSON
+        report_services = weewx.engine.StdPrint, weewx.engine.StdReport, weewx.currentweatherjson.CurrentWeatherJSON
 
 ```
 
