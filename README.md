@@ -15,7 +15,7 @@ Additionally, the following configuration is needed in weewx.conf (/etc/weewx/we
 [CurrentWeatherJSON]
 filename=/var/www/html/weewx/current.json
 ```
-Also, append this to Engine -> Services -> report_services: `weewx.currentweather.CurrentWeatherJSON`
+Also, append this to Engine -> Services -> report_services: `weewx.currentweatherjson.CurrentWeatherJSON`
 
 It might look something like this:
 ```
