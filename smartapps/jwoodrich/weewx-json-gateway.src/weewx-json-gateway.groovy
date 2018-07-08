@@ -55,11 +55,11 @@ def updated() {
 }
 
 def sendEventIfFound(device, name, value, units = null) {
-    if (device && value) {
+    if (device != null) {
         if (units!=null) {
-        	device.sendEvent(name: name, value: value, units: units)
+            device.sendEvent(name: name, value: value, units: units)
         } else {
-        	device.sendEvent(name: name, value: value)
+            device.sendEvent(name: name, value: value)
         }
     }
 }
